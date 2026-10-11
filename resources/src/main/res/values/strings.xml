@@ -559,4 +559,55 @@
   <string name="summary_open_source_licenses">View open source licenses.</string>
   <string name="idepref_jdkVersion_title">JDK version</string>
   <string name="idepref_jdkVersion_summary">Currently selected: %1$s (requires restart if changed)</string>
+
+  <!-- AI Chat / Agent -->
+  <string name="menu_ai_chat">AI Chat</string>
+  <string name="title_ai_chat">AI Chat</string>
+  <string name="title_ai_providers">AI Providers</string>
+  <string name="hint_ai_message">Message…</string>
+  <string name="action_send">Send</string>
+  <string name="action_attach_file">Attach file</string>
+  <string name="action_attach_image">Attach image</string>
+  <string name="action_attach_video">Attach video</string>
+  <string name="mode_chat">Chat</string>
+  <string name="mode_agent">Agent</string>
+  <string name="ai_status_thinking">Thinking…</string>
+  <string name="ai_status_reading">Reading files…</string>
+  <string name="ai_status_editing">Editing…</string>
+  <string name="ai_status_building">Building…</string>
+  <string name="ai_status_analyzing">Analyzing errors…</string>
+  <string name="ai_cancel">Cancel</string>
+  <string name="ai_provider_name">Name</string>
+  <string name="ai_provider_endpoint">Endpoint URL</string>
+  <string name="ai_provider_api_key">API key</string>
+  <string name="ai_provider_model">Model</string>
+  <string name="ai_provider_type">API type</string>
+  <string name="ai_provider_test">Test connection</string>
+  <string name="ai_provider_add">Add provider</string>
+  <string name="ai_provider_edit">Edit provider</string>
+  <string name="ai_provider_delete">Remove</string>
+  <string name="ai_provider_empty">No providers configured. Add one to start chatting.</string>
+  <string name="ai_capability_text">Text</string>
+  <string name="ai_capability_image">Image</string>
+  <string name="ai_capability_video">Video</string>
+  <string name="ai_capability_file">File</string>
+  <string name="ai_capability_tool_calling">Tool calling</string>
+  <string name="ai_capability_streaming">Streaming</string>
+  <string name="ai_confirm_delete_file">Delete this file?\n%1$s</string>
+  <string name="ai_minimize">Minimize</string>
+  <string name="ai_maximize">Maximize</string>
+  <string name="ai_close">Close</string>
+  <string name="ai_select_provider">Select provider</string>
+  <string name="menu_generate_aab">Generate App Bundle (.aab)</string>
+  <string name="title_apk_analyzer">APK Analyzer</string>
+  <string name="title_asset_studio">Asset Studio</string>
+  <string name="title_database_inspector">Database Inspector</string>
+  <string name="title_signing_config">Signing configurations</string>
+  <string name="title_material_theme_builder">Material Theme Builder</string>
+  <string name="title_translations_editor">Translations Editor</string>
+  <string name="title_manifest_merger">Manifest Merger</string>
+  <string name="title_device_file_explorer">Device File Explorer</string>
+  <string name="action_analyze_code">Inspect code</string>
+  <string name="action_check_dependency_updates">Check dependency updates</string>
 </resources>
+

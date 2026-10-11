@@ -123,6 +123,11 @@ dependencies {
   implementation(projects.uidesigner)
   implementation(projects.xmlInflater)
 
+  // AI Chat / Agent
+  implementation("androidx.security:security-crypto:1.1.0-alpha06")
+  implementation("com.squareup.okhttp3:okhttp:4.12.0")
+  implementation("com.squareup.okhttp3:okhttp-sse:4.12.0")
+
   // This is to build the tooling-api-impl project before the app is built
   // So we always copy the latest JAR file to assets
   compileOnly(projects.subprojects.toolingApiImpl)

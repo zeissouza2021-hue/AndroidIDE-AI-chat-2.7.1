@@ -73,6 +73,14 @@
       android:name=".activities.editor.EditorActivityKt"
       android:windowSoftInputMode="adjustResize" />
     <activity android:name=".activities.PreferencesActivity" />
+    <activity
+      android:name=".activities.AiProvidersActivity"
+      android:exported="false"
+      android:label="@string/title_ai_providers" />
+    <activity
+      android:name=".activities.tools.IdeToolsActivity"
+      android:exported="false"
+      android:label="IDE Tools" />
     <activity android:name=".activities.AboutActivity" />
     <activity android:name=".activities.ContributorsActivity" />
     <activity

@@ -30,6 +30,9 @@ import com.itsaky.androidide.actions.editor.ExpandSelectionAction
 import com.itsaky.androidide.actions.editor.LongSelectAction
 import com.itsaky.androidide.actions.editor.PasteAction
 import com.itsaky.androidide.actions.editor.SelectAllAction
+import com.itsaky.androidide.actions.ai.AiChatAction
+import com.itsaky.androidide.actions.build.GenerateAabAction
+import com.itsaky.androidide.actions.tools.IdeToolsActionMenu
 import com.itsaky.androidide.actions.etc.DisconnectLogSendersAction
 import com.itsaky.androidide.actions.etc.FindActionMenu
 import com.itsaky.androidide.actions.etc.LaunchAppAction
@@ -76,6 +79,9 @@ class EditorActivityActions {
       registry.registerAction(ReloadColorSchemesAction(context, order++))
       registry.registerAction(DisconnectLogSendersAction(context, order++))
       registry.registerAction(LaunchAppAction(context, order++))
+      registry.registerAction(AiChatAction(context, order++))
+      registry.registerAction(GenerateAabAction(context, order++))
+      registry.registerAction(IdeToolsActionMenu(context, order++))
 
       // editor text actions
       registry.registerAction(ExpandSelectionAction(context, order++))
